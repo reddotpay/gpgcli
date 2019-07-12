@@ -1,0 +1,11 @@
+#!/usr/bin bash
+
+# Generates compiled executables 
+
+mkdir -p dist/win
+mkdir -p dist/linux
+
+F=$(basename `git config --get remote.origin.url` | cut -f 1 -d '.')
+
+GOOS=windows GOARCH=386 go build -o dist/win/$F.exe .
+GOOS=linux GOARCH=amd64 go build -o dist/linux/$F .
