@@ -54,7 +54,7 @@ gpgcli encrypt <file> --public <public-file-gpg> --output <outfile>
 |  3  | `missing file`                                          | missing file to be encrypted or decrypted                                      |
 |  4  | ``missing `--public` argument while using encrypt``     | `encrypt` command should contain a `--public` which points the public GPG file |
 |  5  | ``missing `--secret` argument while using decrypt``     | `decrypt` command should contain a `--secret` which points the secret GPG file |
-|  6  | ``missing `--passphrase` argument while using decrypt`` | `decrypt` command should contain a `--passphrose` with the secret passphrase   |
+|  6  | ``missing `--passphrase` argument while using decrypt`` | `decrypt` command should contain a `--passphrase` with the secret passphrase   |
 
 ## .onsave
 
