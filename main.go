@@ -11,6 +11,7 @@ import (
 	"github.com/reddotpay/gogpg"
 )
 
+// HELP displays the help text message
 const HELP = `
 encrypt or decrypt using gnu/pg or gpg
 
