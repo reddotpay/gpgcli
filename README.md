@@ -1,5 +1,9 @@
 # GPGCLI
 
+## Download
+
+Executables are inside the `dist` folder
+
 ## Generating GPG keys
 
 1. List all available keys
