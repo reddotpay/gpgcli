@@ -49,6 +49,7 @@ func main() {
 	handleErr(err)
 
 	switch command {
+	case "help":
 	case "-h":
 		fmt.Print(HELP)
 		return
