@@ -39,7 +39,7 @@ Executables are inside the `dist` folder
 To encrypt a file,
 
 ```
-gpgcli encrypt <file> --public <public-file-gpg> --output <outfile>
+gpgcli encrypt <file> --public <public-file-gpg> [ --output <outfile> ]
 ```
 
 Omitting the `--output` will dump the result in base64
@@ -47,7 +47,7 @@ Omitting the `--output` will dump the result in base64
 For when decrypting,
 
 ```
-gpgcli encrypt <file> --public <public-file-gpg> --output <outfile>
+gpgcli decrypt <file> --secret <private-file-gpg> --passphrase <secret-passphrase> [ --output <outfile> ]
 ```
 
 ## Troubleshooting

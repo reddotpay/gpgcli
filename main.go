@@ -1,7 +1,6 @@
 package main
 
 import (
-	"encoding/base64"
 	"errors"
 	"fmt"
 	"io/ioutil"
@@ -73,7 +72,7 @@ func main() {
 	if "" != output {
 		ioutil.WriteFile(output, buf, 0644)
 	} else {
-		fmt.Print(base64.StdEncoding.EncodeToString(buf))
+		fmt.Printf("%s", buf)
 	}
 }
 
